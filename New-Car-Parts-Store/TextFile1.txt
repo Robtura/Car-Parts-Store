@@ -1,0 +1,13 @@
+﻿            List<double> PriceLis string userInputt = new List<double>();
+            do
+            {
+                Console.WriteLine("Enter parts letter:");
+                = Console.ReadLine();
+
+
+            } while (userInput != part1.identifier);
+
+            if (userInput == part1.identifier)
+            {
+                PriceList.Add(part1.price);
+            }
