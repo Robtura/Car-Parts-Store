@@ -59,13 +59,13 @@ namespace New_Car_Parts_Store
                     pricelist.Add(part5.price);
                     Console.WriteLine("----" + part5.name + "Added");
                 }
-                if (userinput2 == "Done" || userinput2 == "done" || userinput2 == "DONE")
+                if (userinput2 == "Done" || userinput2 == "done")
                 {
                     Console.WriteLine("---------------------------------------------------------------");
                     Console.WriteLine("Total cost: " + pricelist.Sum());
                 }
 
-            } while (userinput2 != "Done" && userinput2 != "done" && userinput2 == "DONE");
+            } while (userinput2 != "Done" && userinput2 != "done");
             { 
             
             }
